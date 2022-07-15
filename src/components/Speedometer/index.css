@@ -1,0 +1,62 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.speed-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+.speed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.heading {
+  color: white;
+  font-family: 'roboto';
+  font-size: 40px;
+  font-style: italic;
+}
+.speed-image {
+  width: 600px;
+}
+.speed-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: white;
+}
+.speed-text {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: white;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+.butn {
+  font-family: 'roboto';
+  font-size: 12px;
+  color: white;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 8px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+}
+.brake-btn {
+  background: transparent;
+  border: 1px solid white;
+}
